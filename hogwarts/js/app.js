@@ -5,3 +5,13 @@
 // };
 
 
+$( document ).ready(function() {
+    //console.log( "ready!" );
+    let $container = $("#container");
+    console.log($container);
+    let $h1 = $("h1");
+    console.log($h1);
+});
+
+
+
