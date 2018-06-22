@@ -13,10 +13,12 @@ $( document ).ready(function() {
     $("body").append("<h3>Slytherin</h3>");
     $("body").append("<h4 id=Owl>Flappy</h4>");
     $("body").append("<h4 id=wand>Larch Wand with Unicorn hair Core</h4>");
-    $("body").append("<ul><li></li><li id =secret>Invisibility Cloak</li><li id =secret>Magic Map</li><li id=secret>Time Turner</li><li id=Owl>Leash</li><li>Bertie Bott's Every Flavor (Jelly) Beans</li>");
+    $("body").append("<ul id=trunk><li></li>Butter Beer<li id =secret>Invisibility Cloak</li><li id =secret>Magic Map</li><li id=secret>Time Turner</li><li id=Owl>Leash</li><li>Bertie Bott's Every Flavor (Jelly) Beans</li>");
     $("#wand").css("color", "red");
     $("#secret").hide(2000);
     $("#secret").show("slow");
+    $("#grad").replace("Fall 2018");
+    $(this).prev("ul").attr("id","chest");
 });
 
 
