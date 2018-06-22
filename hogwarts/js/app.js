@@ -11,10 +11,10 @@ $( document ).ready(function() {
     // let $h1 = $("h1");
     $("body").prepend("<h2>Cameron Binion</h2>");
     $("body").append("<h3>Slytherin</h3>");
-    $("body").append("<h4>Hawthorn Wand with Dragon Heartstring Core</h4>");
     $("body").append("<h4 id=Owl>Flappy</h4>");
-    $("body").append("<ul><li>Butterbeer</li><li id =secret>Invisibility Cloak</li><li id =secret>Magic Map</li><li id=secret>Time Turner</li><li id=Owl>Leash</li><li>Bertie Bott's Every Flavor (Jelly) Beans</li>");
-
+    $("body").append("<h4 id=wand>Larch Wand with Unicorn hair Core</h4>");
+    $("body").append("<ul><li></li><li id =secret>Invisibility Cloak</li><li id =secret>Magic Map</li><li id=secret>Time Turner</li><li id=Owl>Leash</li><li>Bertie Bott's Every Flavor (Jelly) Beans</li>");
+    $("#wand").css("color", "red");
 });
 
 
