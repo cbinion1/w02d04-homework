@@ -1,5 +1,10 @@
 body {
   background-color: #F8F7FF
-
-text-align: center;
 }
+body{
+	text-align: center;
+}
+#Owl {
+	font-family: fantasy;
+}
+
